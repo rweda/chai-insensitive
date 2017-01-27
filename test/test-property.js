@@ -16,7 +16,7 @@ function testCases(fill, haystack, needle) {
   mixed.should.have.insensitive.property(needle, needle);
 }
 
-describe(".insensitively.property", function() {
+describe.skip(".insensitively.property", function() {
 
   it("should find exact matches", function() {
     ({foo: "bar"}).should.have.insensitive.property("foo");

@@ -1,0 +1,30 @@
+{
+  "name": "chai-insensitive",
+  "version": "0.0.0",
+  "description": "Bully strings without caring if they are upper or lower case.",
+  "main": "insensitive-chai.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rweda/chai-insensitive.git"
+  },
+  "author": "Ryan Leonard (http://ryanleonard.us)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rweda/chai-insensitive/issues"
+  },
+  "homepage": "https://github.com/rweda/chai-insensitive#readme",
+  "keywords": ["chai", "testing", "string", "chai-plugin", "browser"],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "peerDependencies": {
+    "chai": "^3.5.0"
+  }
+}
